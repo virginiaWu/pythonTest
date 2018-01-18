@@ -19,7 +19,6 @@ listurl = pattern.findall(html)
 i = 0
 for element in listurl:
 	f = open(str(i)+'.jpg', 'wb+')
-	print(element)
 	url = element.decode()
 	req = urllib.request.urlopen(url)
 	image = req.read()
