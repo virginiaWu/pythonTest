@@ -1,8 +1,0 @@
-imooc Java
-imooc Html
-imooc Python imooc
-
-C
-C#
-Go
-VB
